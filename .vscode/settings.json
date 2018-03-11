@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "*icon*.png": true, // hide the favicons.
+        "*.ico": true,
+        "_site": true,
+        ".sass-cache": true,
+        "**/.git": true,
+        "**/.DS_Store": true
+    }
+}

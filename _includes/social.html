@@ -1,4 +1,5 @@
 <ul class="social-media-list">
+  {% if site.email%}<li><a href="mailto:{{ site.email | escape }}"><img class="svg-icon" src="/assets/Envelope_alt_font_awesome.svg" /><span class="username">{{ site.email | escape }}</span></a></li>{% endif %}
   {% if site.dribbble_username%}<li><a href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#dribbble"></use></svg> <span class="username">{{ site.dribbble_username| escape }}</span></a></li>{% endif %}
   {% if site.facebook_username%}<li><a href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#facebook"></use></svg> <span class="username">{{ site.facebook_username| escape }}</span></a></li>{% endif %}
   {% if site.flickr_username%}<li><a href="https://www.flickr.com/photos/{{ site.flickr_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#flickr"></use></svg> <span class="username">{{ site.flickr_username| escape }}</span></a></li>{% endif %}
@@ -12,7 +13,7 @@
     {% if site.youtube_username%}<li><a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#youtube"></use></svg> <span class="username">{{ site.youtube_username| escape }}</span></a></li>{% endif %}
     {% if site.googleplus_username%}<li><a href="https://plus.google.com/{{ site.googleplus_username| escape }}"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#googleplus"></use></svg> <span class="username">{{ site.googleplus_username| escape }}</span></a></li>{% endif %}
   -->
-  {% if site.youtube_url%}<li><a href="https://youtube.com/{{ site.youtube_url| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#youtube"></use></svg> <span class="username">{{ site.youtube_username| escape }}</span></a></li>{% endif %}
+  {% if site.youtube_url%}<li><a href="https://youtube.com/{{ site.youtube_url| escape }}"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#youtube"></use></svg> <span class="username">{{ site.youtube_username| escape }}</span></a></li>{% endif %}
   {% if site.googleplus_url%}<li><a href="https://plus.google.com/{{ site.googleplus_url| escape }}"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#googleplus"></use></svg> <span class="username">{{ site.googleplus_username| escape }}</span></a></li>{% endif %}
   {% if site.rss %}<li><a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#rss"></use></svg> <span>{{ site.rss | escape }}</span></a></li>{% endif %}
 </ul>
