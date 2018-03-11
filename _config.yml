@@ -20,6 +20,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   encounters, adventures, quests.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sporeservant.com" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: "UA-115443239-1"
+
 twitter_username: sporeservant
 github_username: sporeservantpub
 facebook_username: sporeservant
