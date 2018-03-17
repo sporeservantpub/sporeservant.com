@@ -47,6 +47,12 @@ $on-laptop:        800px !default;
   }
 }
 
+@mixin media-query-when-greater-than($size) {
+  @media screen and (min-width: $size) {
+		@content;
+	}
+}
+
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
 }

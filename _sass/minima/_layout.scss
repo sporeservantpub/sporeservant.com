@@ -67,9 +67,8 @@
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
+    background-color: $header-background-color;
+    border: none;
     text-align: right;
 
     label[for="nav-trigger"] {
@@ -238,6 +237,39 @@
 }
 
 
+/**
+ * Home
+ */
+
+.latest-post,
+.recent-posts {
+	overflow: auto;
+	margin-bottom: 20px;
+
+
+  @include media-query-when-greater-than(600px) {
+		h3 {
+			float: right;
+			width: 60%;
+		}
+
+		.post-image-link {
+			float: left;
+			display: inline-block;
+			width: 35%;
+			img {
+				width: 100%;
+			}
+		}
+
+		p.post-excerpt {
+			margin-left: 5%;
+			float: right;
+			width: 60%;
+			display: inline-block;
+		}
+  }
+}
 
 /**
  * Posts
@@ -282,4 +314,16 @@
       @include relative-font-size(1.125);
     }
   }
+
+	h5 {
+    @include relative-font-size(1.10);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.10);
+    }
+	}
+
+	table {
+		@include relative-font-size(.75);
+	}
 }

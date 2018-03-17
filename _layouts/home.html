@@ -7,5 +7,37 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {% endif %}
 
-  {{ content }}
+	<div class="latest-post">
+		<h1>Latest Post</h1>
+		{% for post in site.posts limit:1 %}
+			<h3>
+				<a class="post-link" href="{{ post.url | relative_url }}">
+					{{ post.title | escape }}
+				</a>
+			</h3>
+			{% if post.hero-image %}
+				<a class="post-image-link" href="{{ post.url | relative_url }}">
+					<img alt="{{post.hero-text | escape }}" src="{{ post.hero-image | absolute_url | escape }}" />
+				</a>
+			{% endif %}
+			{% if site.show_excerpts %}
+				<p class="post-excerpt">{{ post.excerpt }}</p>
+			{% endif %}
+		{% endfor %}
+	</div>
+
+	<div class="recent-posts">
+		<h1>Recent Posts</h1>
+		{% for post in site.posts offset:1 limit:2 %}
+			<h4>
+				<a class="post-link" href="{{ post.url | relative_url }}">
+					{{ post.title | escape }}
+				</a>
+			</h4>
+		{% endfor %}
+	</div>
+
+	<div class="content">
+		{{ content }}
+	</div>
 </div>
