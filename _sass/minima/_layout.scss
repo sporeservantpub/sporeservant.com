@@ -240,6 +240,21 @@
 /**
  * Home
  */
+.latest-post.full-width {
+  @include media-query-when-greater-than(600px) {
+		h3 {
+			float: left;
+			width: 100%;
+		}
+
+		p.post-excerpt {
+			margin-left: 0;
+			float: left;
+			width: 100%;
+			display: block;
+		}
+	}
+}
 
 .latest-post,
 .recent-posts {
