@@ -12,10 +12,10 @@ hero-text: "A 'hand-written' list of monster names"
 
 These rare Fey creatures are packed with abilities and lore that make them great as a plot focus for one-shot adventures. The Giant fraithwarp: a low CR legendary creature who acts as a gate to and from the Feywild; the walfablang (commonly mispronounced as "waffle-blong"): a mythical beast who throws darts with flare, and has an insatiable urge to be the recipient of your players' magic baubles; and the burglestar: a dryad-like Fey who creates a symbiotic relationship with giant spiders and wants to feed your players to them!
 
-### Bestiary
+### Beastiary
 1. [Giant Fraithwarp](#giant-fraithwarp)
-2. [walfablang](#walfablang)
-3. [burglestar](#burglestar)
+2. [Walfablang](#walfablang)
+3. [Burglestar](#burglestar)
 
 ## Giant Fraithwarp
 
