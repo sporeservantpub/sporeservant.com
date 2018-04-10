@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Rare Fey Creatures for Plot Fodder: Giant fraithwarp, burglestar, and walfablang"
+title:  "Rare Fey Creatures for Plot Fodder: Giant Fraithwarp, Burglestar, and Walfablang"
 date:   2018-04-07 00:00:00
 categories: monsters
 excerpt: "These rare Fey creatures are packed with abilities and lore that make them great as a plot focus for one-shot adventures. The Giant fraithwarp: a low CR legendary creature who acts as a gate to and from the Feywild; the walfablang (commonly mispronounced as \"waffle-blong\"): a mythical beast with an urge to be the recipient of your players' magic weapons; and the burglestar: a dryad-like Fey who creates a symbiotic relationship with giant spiders and wants to feed your players to them!"
