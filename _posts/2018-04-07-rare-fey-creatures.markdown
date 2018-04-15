@@ -4,7 +4,7 @@ title:  "Rare Fey Creatures for Plot Fodder: Giant Fraithwarp, Burglestar, and W
 date:   2018-04-07 00:00:00
 categories: monsters
 excerpt: "These rare Fey creatures are packed with abilities and lore that make them great as a plot focus for one-shot adventures. The Giant fraithwarp: a low CR legendary creature who acts as a gate to and from the Feywild; the walfablang (commonly mispronounced as \"waffle-blong\"): a mythical beast with an urge to be the recipient of your players' magic weapons; and the burglestar: a dryad-like Fey who creates a symbiotic relationship with giant spiders and wants to feed your players to them!"
-hero-image: "/images/walfablang.png"
+hero-image: "/images/walfablang-color.png"
 hero-text: "A 'hand-written' list of monster names"
 ---
 
@@ -33,7 +33,7 @@ It is most common to find them near Elven lands, as their primary function is to
 
 If a fraithwarp has not been making its nest in a location for a long time (greater than a month), it will attempt to detect whether the party is good, and if not, flee at the first sign of danger. If it can't escape, it may use its Lair Action to summon some weak Fey creatures to help it make an escape, or teleport.
 
-However, a fraithwarp who has been nesting in a location and has begun to open its gate to the Feywild will defend its nest at all costs. It will likely start off a fight by casting *entangle*, and then charge at the first creature to pass through the web. At the end of the turn of the first creature who hits it, it will cast Shimmering Shield (see Legendary Actions) on itself for protection. Depending on the number of attackers, it will use its Lair Action to summon one strong creature, or many weak creatures from the Feywild to protect it, and it will fight to the death. 
+However, a fraithwarp who has been nesting in a location and has begun to open its gate to the Feywild will defend its nest at all costs. It will likely start off a fight by casting *entangle*, and then charge at the first creature to pass through the web. At the end of the turn of the first creature who hits it, it will cast Shimmering Shield (see Legendary Actions) on itself for protection. Depending on the number of attackers, it will use its Lair Action to summon one strong creature, or many weak creatures from the Feywild to protect it, and it will fight to the death.
 
 **Armor Class** 12 (natural armor)
 
@@ -106,6 +106,9 @@ On initiative count 20 (losing initiative ties), the fraithwarp can take a lair 
 
 ![A 'walfablang']({{ "/images/walfablang.png" | absolute_url }})
 
+[Download as PDF]({{ "/assets/Walfablang Monster 5e Stat Block by SporeServant.pdf" | absolute_url }}){:target="_blank"}
+or [view on Homebrewery!](https://homebrewery.naturalcrit.com/share/By-dPsuAof)
+
 *Medium fey (humanoid), chaotic neutral*
 
 Pronounced commonly as "waffle-blong" (but actually pronounced, "wall-fa-blong"), these incredibly rare humanoid creatures are full of magical tricks, which they mostly use to get people to give them their belongings willingly. Very little is known of their origins or their deity, but many old elves have heard and can recall tales and lore about these creatures from their Fey ancestors.
@@ -114,7 +117,7 @@ Their god is good, and will not steal, but is also greedy, so Waflablangs must g
 
 If a walfablang does commit theft or an evil act to acquire these baubles and trinkets, their god turns them into a spirit and magically attaches them slightly out-of-reach - forever observing - to the bauble they stole.
 
-A *remove curse* spell will release the walfablang from this state, but having been tormented, it will immediately attack and fight to the death to acquire the coveted treasure that doomed them. 
+A *remove curse* spell will release the walfablang from this state, but having been tormented, it will immediately attack and fight to the death to acquire the coveted treasure that doomed them.
 
 Its curse removed, and having been abandoned by its god, it realizes it is cursed yet again: to live eternally on the material plane without a god to care for their spirit. A walfablang that remains on the material plane long enough will lead creatures like Goblins to do its bidding in exchange for teaching them small magic.
 
@@ -157,7 +160,7 @@ Cha | 16 | +3
 
 **Challenge** 3 (700 XP)
 
-**Keen Sight and Smell**. The walfablang has advantage on Wisdom (Perception) checks that rely on sight or smell. 
+**Keen Sight and Smell**. The walfablang has advantage on Wisdom (Perception) checks that rely on sight or smell.
 
 **Cunning Action**. On each of its turns, walfablang the spy can use a bonus action to take the Dash, Disengage, or Hide action.
 
@@ -190,13 +193,13 @@ This creature is a nocturnal, tree-skinned humanoid (male or female form - can a
 
 Elven lore tells it that the burglestar are ancient Fey who long ago forged a bond with the Spider Queen Lolth to be protectors of her spiders on the surface world, as Lolth looked over the underworld.
 
-Burglestars are usually found near and with giant spiders - around their webs - trying to lure insects - or better, adventurers - into the webs to be eaten by the spiders. The spiders provide protection for them, and they provide food for the spiders. A burglestar can create a bright, alluring light that can appear like a campfire from a distance, and alter their speaking voice to sound like a moving stream in the distance. 
+Burglestars are usually found near and with giant spiders - around their webs - trying to lure insects - or better, adventurers - into the webs to be eaten by the spiders. The spiders provide protection for them, and they provide food for the spiders. A burglestar can create a bright, alluring light that can appear like a campfire from a distance, and alter their speaking voice to sound like a moving stream in the distance.
 
 ### Tactics
 
 A burglestar will do its utmost to lure any adventuring party near to its spider companions' webs. Once it can get them within 20 feet, it will cast *web* - enclosing the party in the web, while also connecting the magical web to the spiders' natural web. Once the adventurers start wriggling, the spiders will come to finish the burglestar's work.
 
-When the burglestar first meets the party, it will put on a deception to appear in need of help, or as if it has found something to share with the party. Any adventurer who casts *detect good or evil* can tell that this creature is quite sinister. Additionally, an Insight contest against the burglestar's Deception could reveal same. 
+When the burglestar first meets the party, it will put on a deception to appear in need of help, or as if it has found something to share with the party. Any adventurer who casts *detect good or evil* can tell that this creature is quite sinister. Additionally, an Insight contest against the burglestar's Deception could reveal same.
 
 If the burglestar is found out, it will cast *web* and run away.
 
@@ -234,7 +237,7 @@ At will: *dancing lights*, *druidcraft*
 
 3/day each: *web*, *goodberry*
 
-1/day each: *barkskin*, *darkness*, *pass without trace*, 
+1/day each: *barkskin*, *darkness*, *pass without trace*,
 
 **Magic Resistance**. The burglestar has advantage on saving throws against spells and other magical effects.
 

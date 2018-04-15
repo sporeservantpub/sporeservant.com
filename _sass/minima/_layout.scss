@@ -12,9 +12,10 @@ aside.ad-footer {
       display: flex;
       justify-content: center;
       margin-bottom: 20px;
+      flex-wrap: wrap;
 
       iframe {
-        margin: 0 10px;
+        margin: 10px;
       }
     }
   }
@@ -282,9 +283,28 @@ aside.ad-footer {
 .recent-posts {
 	overflow: auto;
 	margin-bottom: 20px;
+  a.post-image-link {
+    overflow: auto;
+    img {
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+  }
 
+  .recent-post {
+    margin-bottom: 15px;
+  }
 
   @include media-query-when-greater-than(600px) {
+    .recent-post {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      a.post-image-link {
+        max-width: 200px;
+      }
+    }
+
 		h3 {
 			float: right;
 			width: 60%;
