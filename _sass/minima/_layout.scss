@@ -1,4 +1,26 @@
 /**
+ * Ad Footer
+ */
+aside.ad-footer {
+
+  div.wrapper {
+    p {
+      font-size: 10px;
+    }
+
+    div.centered {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+
+      iframe {
+        margin: 0 10px;
+      }
+    }
+  }
+}
+
+/**
  * Site header
  */
 .site-header {
@@ -62,7 +84,7 @@
       color: $header-text-color;
     }
   }
-  
+
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
@@ -300,6 +322,12 @@
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
+  }
+
+  @include media-query($on-palm) {
+    font-size: 24px;
+    text-align: center;
+    line-height:28px
   }
 }
 
