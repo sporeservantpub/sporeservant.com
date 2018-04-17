@@ -21,6 +21,9 @@ These rare Fey creatures are packed with abilities and lore that make them great
 
 ![A 'fraithwarp']({{ "/images/fraithwarp.png" | absolute_url }})
 
+[Download as PDF]({{ "/assets/Giant Fraithwarp Monster 5e Stat Block by SporeServant.pdf" | absolute_url }}){:target="_blank"}
+or [view on Homebrewery!](https://homebrewery.naturalcrit.com/share/HkZ3k4pG2f)
+
 *Large fey, chaotic good*
 
 This giant, winged caterpillar is a woodland inhabitant that does its utmost not to be seen or heard by camouflaging into its woodland surroundings. Even more so, a fraithwarp will begin to make the woods around it more like the Feywild the longer it is there.
@@ -186,6 +189,10 @@ At will: *mending*, *minor illusion*, *prestidigitation*
 ## Burglestar
 
 ![A 'burglestar']({{ "/images/burglestar.png" | absolute_url }})
+
+[Download as PDF]({{ "/assets/Burglestar Monster 5e Stat Block by SporeServant.pdf" | absolute_url }}){:target="_blank"}
+or [view on Homebrewery!](https://homebrewery.naturalcrit.com/share/rkmkujTf3G)
+
 
 *Medium fey (humanoid), chaotic evil*
 
