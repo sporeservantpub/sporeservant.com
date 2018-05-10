@@ -25,6 +25,9 @@ body {
 	font-kerning: normal;
 }
 
+p, ul {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 
 /**
@@ -96,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
 	color: $brand-color;
-	text-decoration: underline;
+	text-decoration: none;
 
 	&:visited {
 		color: darken($brand-color, 15%);
@@ -245,6 +248,3 @@ table {
 	}
 }
 
-p {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}

@@ -7,7 +7,7 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {% endif %}
 
-  <div class="latest-post {% if post.hero-image %}full-width{% endif %}">
+  <div class="latest-post {% unless post.hero-image %}full-width{% endunless %}">
     <h1>Latest Post</h1>
     {% for post in site.posts limit:1 %}
       <h3>
@@ -20,7 +20,7 @@ layout: default
           <img alt="{{post.hero-text | escape }}" src="{{ post.hero-image | absolute_url | escape }}" />
         </a>
       {% endif %}
-      {% if site.show_excerpts %}
+      {% if site.show_excerpts and post.excerpt %}
         <p class="post-excerpt">{{ post.excerpt }}</p>
       {% endif %}
     {% endfor %}

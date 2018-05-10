@@ -263,6 +263,12 @@ aside.ad-footer {
 /**
  * Home
  */
+ .latest-post {
+   blockquote {
+     float: left;
+   }
+}
+
 .latest-post.full-width {
   @include media-query-when-greater-than(600px) {
 		h3 {
