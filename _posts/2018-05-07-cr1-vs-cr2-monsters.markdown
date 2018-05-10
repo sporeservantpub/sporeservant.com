@@ -64,7 +64,7 @@ For example: a red faerie dragon can invisibly follow the party to a treasure, a
 
 #### But what does it all *mean*?
 
-> CR1 creatures are designed to be challenging/deadly/impossible for a level 1 party without the dice on their side.
+> CR1 creatures are designed to be challenging and potentially deadly for a level 1 party without the dice on their side.
 
 By looking at just two CR1 monsters side-by-side who have very different monster makeup, my first thought is that the challenge rating system is pretty wildly flexible in how drastically different variables return the same ultimate result. An argument could be made that it would be more valuable to present both offensive and defensive challenge rating in the monster's statistics, because these two have very different implications for the encounter. Not saying they should, but an argument could be made in favor of it!
 
@@ -72,7 +72,7 @@ For example, if you just look at the challenge rating by itself, you will have n
 
 The party will be able to bash on the Bugbear with relative ease, but, in the short time it is alive, it will likely drop 1 or 2 party members to 0 hit points, depending on the number of actions the party has and whether or not the monster has allies.
 
-Additionally, I would posit that CR1 creatures are designed to be challenging/deadly/impossible for a level 1 party without the dice on their side.
+Additionally, I would posit that CR1 creatures are designed to be challenging and potentially deadly for a level 1 party without the dice on their side.
 
 I think the takeaway here is that in general, and in my observations of analyzing monsters in 5th Edition, the challenge rating really takes into account specifically: if it comes down to combat, how likely is the party to die? It does not take into account as obviously how badly can something annoy the players, foil their plans, spy on them, learn their tactics and report to their superiors, etc. This is why tactics are so essential to think about! (If you're looking for tactics advice, I cannot recommend enough [The Monsters Know](http://themonstersknow.com/) by [@geeniusatwrok](https://twitter.com/geeniusatwrok)).
 
